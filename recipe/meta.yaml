@@ -1,5 +1,5 @@
 {% set name = "dpkt" %}
-{% set version = "1.9.6" %}
+{% set version = "1.9.7.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b5737010fd420d142e02ed04fa616edd1fc05e414980baef594f72287c875eef
+  sha256: 80f977667ebbad2b5c4f7b7f45ee8bea6622fb71723f68a9a8fe6274520c853b
 
 build:
   noarch: python
